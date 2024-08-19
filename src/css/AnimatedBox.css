@@ -1,0 +1,58 @@
+.animated-box {
+    width: 300px;
+    height: 70px;
+    color: #fff;
+    background-color: #387552;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    padding: 20px;
+}
+
+.animated-box::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #387552;
+}
+
+.animate-bounce {
+    animation: bounce 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes pulse {
+    0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.94);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-pulse {
+    animation-name: infiniteupdown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}

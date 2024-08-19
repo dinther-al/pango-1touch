@@ -1,0 +1,41 @@
+.page {
+  padding: 16px 16px 96px 16px;
+}
+.section-container {
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+body {
+  background-color: #fff;
+}
+.swiper-slide {
+  margin-right: 30px !important;
+  /* margin-left: 15px !important; */
+}
+@keyframes a {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2px);
+  }
+}
+.animate-a {
+  width: 50px;
+  height: 50px;
+  animation: a 1s infinite alternate;
+}
+
+.zaui-routes .zaui-routes-item {
+  max-height: 100%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outner-spin-button {
+  -webkit-appearance: none;
+}
+.zaui-input-affix-wrapper-focused {
+  border: 1px solid transparent;
+}

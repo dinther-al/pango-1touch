@@ -1,0 +1,21 @@
+{
+    "app": {
+        "title": "Pango1Touch",
+        "headerTitle": "PangoSell",
+        "headerColor": "#387552",
+        "textColor": "white",
+        "statusBarColor": "#1843ef",
+        "leftButton": "back",
+        "statusBar": "normal",
+        "actionBarHidden": false,
+        "hideAndroidBottomNavigationBar": false,
+        "hideIOSSafeAreaBottom": false,
+        "textAlign": "left",
+        "selfControlLoading": false
+    },
+    "debug": false,
+    "listCSS": [],
+    "listSyncJS": [],
+    "listAsyncJS": [],
+    "template": {}
+}
